@@ -73,23 +73,22 @@ body {
 
 .Encabezado {
     text-align: center;
-    background-color: rgb(232, 241, 241);
     margin-top: 50px;
     padding: 10px 
 }
 
 .Encabezado a {
-    font-size: small;
+    font-size: medium;
     text-decoration: none;
     color: rgb(36, 199, 211);
 }
 .Encabezado h1 {
-    font-size: 40px;
+    font-size: 50px;
     color: rgb(26, 14, 131);
 }
 
 .Encabezado p {
-    font-size: small;
+    font-size: medium;
     color: rgb(112, 115, 148);
 }
 
@@ -105,18 +104,45 @@ body {
     justify-content: center;
     background-color: rgb(190, 51, 105);
     width: 100px;
-    height: 40px;
+    height: 42px;
     color: #f7f7f7;
     border-radius: 4px;
     margin-right: 20px;
+    transition: 0.3s;
 }
 
 .botones .boton2 {
     display: flex;
-    align-items: center;
     justify-content: center;
-    width: 140px;
+    align-items: center;
+    width: 145px;
     height: 40px;
     color: rgb(59, 56, 56);
     border-radius: 4px;
     border: solid 2px rgb(59 55 55 / 39%);
+    transition: 0.3s;
+}
+
+.boton1:hover {
+    background-color: rgb(153, 62, 100);
+}
+.boton2:hover {
+    border-color: crimson;
+    color: crimson;
+}
+
+.imagenes {
+    display: flex;
+    padding: 57px;
+}
+.imagen {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+.imagen img {
+    width: 88%;
+    border-radius: 4px;
+}
