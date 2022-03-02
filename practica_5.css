@@ -93,6 +93,30 @@ body {
     color: rgb(112, 115, 148);
 }
 
-.Botones .B1 .B2 {
-    height: 30px;
+.botones {
+    display: flex;
+    justify-content: center;
+    margin-top: 42px;
 }
+
+.botones .boton1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(190, 51, 105);
+    width: 100px;
+    height: 40px;
+    color: #f7f7f7;
+    border-radius: 4px;
+    margin-right: 20px;
+}
+
+.botones .boton2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    height: 40px;
+    color: rgb(59, 56, 56);
+    border-radius: 4px;
+    border: solid 2px rgb(59 55 55 / 39%);
