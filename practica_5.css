@@ -66,7 +66,7 @@ body {
 }
 .Logo p {
     text-align: right;
-    margin-left: 5px;
+    margin-left: 10px;
     font-size: x-small;
     font-weight: bold; 
 }
@@ -141,3 +141,66 @@ body {
     width: 88%;
     border-radius: 4px;
 }
+.h-20 {
+    margin-top: -50px;
+}
+.Logof {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 5px;
+    font-size: x-small;
+    font-weight: bold; 
+}
+.Logof img{
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
+
+footer {
+    text-align: center;
+}
+.enlacesf {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.enlacesf a{
+    text-decoration: none;
+    font-size: x-small;
+    font-weight: bold;
+    color: black;
+    padding: 10px 10px 10px 10px;
+    font-style: bold;
+}
+
+.iconos {
+    display: inline-block;
+    justify-content: center;
+    width: 100%;
+    
+}
+.iconos img {
+    width: 15px;
+    padding: 20px 5px 50px;
+}
+img:hover {
+    opacity: 0.5;
+    transition: 00.3s;
+}
+hr {
+    color: darkgray;
+}
+.iconos p {
+    font-size: 10px;
+}
+
+
+
+    
+
+    
