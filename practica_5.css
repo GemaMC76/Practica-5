@@ -1,5 +1,8 @@
+* {
+    box-sizing: border-box;
+}
 body {
-    font-family: sans-serif;
+    font-family: "Raleway";
     margin: 0;
     
 }
@@ -59,8 +62,8 @@ body {
 
 .Logo img {
     display: block;
-    width: 15px;
-    height: 15px;
+    width: 25px;
+    height: 25px;
     text-align: left;
     margin-left: 20px;
 }
@@ -82,7 +85,6 @@ body {
     color: rgb(36, 199, 211);
 }
 .Encabezado h1 {
-    font-size: 50px;
     color: rgb(26, 14, 131);
 }
 .Encabezado p {
@@ -127,15 +129,13 @@ body {
     color: crimson;
 }
 .imagenes {
-    display: flex;
+    display: flex;  
+    
 }
 .imagen {
-    display: flex;
-    flex-wrap: nowrap;
-    align-content: center;
     justify-content: space-around;
     align-items: center;
-    margin-top: -100px;
+    margin-top: -76px;
 }
 .imagen img {
     width: 88%;
@@ -154,8 +154,8 @@ body {
     font-weight: bold; 
 }
 .Logof img{
-    width: 15px;
-    height: 15px;
+    width: 25px;
+    height: 25px;
     margin-right: 10px;
 }
 
@@ -185,18 +185,17 @@ footer {
     width: 100%;  
 }
 .iconos img {
-    width: 20px;
+    width: 30px;
     padding: 20px 5px 60px;
-    opacity: 0.6;
 }
 img:hover {
-    opacity: 0.3;
+    opacity: 0.5;
     transition: 00.3s;
 }
 hr {
     width: 75%;
     margin-bottom: 30px;
-    opacity: 0.7;
+    opacity: 0.5;
 }
 
 footer p {
@@ -204,8 +203,40 @@ footer p {
     color: #a9a9a9b8;
 }
 
+@media (max-width:480px) {
+        h1 {
+        font-size: 30px;
+        }   
+        .Encabezado p {
+            font-size: small;  
+        }  
+        .boton1 {
+            width: 50px;
+            box-sizing: content-box;
+        }
+        .boton2 {
+            box-sizing: content-box;
+        }   
+        .imagen {
+            margin-top: -20px;
+        } 
+        .botones {padding-bottom: 30px;
+        }
+        .Logof {
+            margin-top: 30px;
+        }
+}
+
+@media (min-width:480px) {
+    h1 {
+    font-size: 50px;
+    }  
+    .Encabezado p {
+        font-size: medium;  
+    }  
+    .boton1 {
+        width: 100px;
+    }
+}  
 
 
-    
-
-    
