@@ -1,287 +1,351 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 body {
-    font-family: "Raleway";
-    margin: 0;
+  font-family: "Raleway";
+  margin: 0;
+  max-width: 1024px;
+  margin: 0 auto;
 }
 .caja {
-    background-color: rgb(241, 240, 244);
+  background-color: rgb(241, 240, 244);
 }
 .Menu {
-    width: 100%;
-    height: 30px;
-    display: flex;
-    padding-top: 35px;
+  width: 100%;
+  height: 30px;
+  display: flex;
+  padding-top: 35px;
 }
 .Logo {
-    display: flex;
-    width: 20%;
-    align-items: center;
-    padding-left: 50px;
+  display: flex;
+  width: 20%;
+  align-items: center;
+  padding-left: 50px;
 }
 
 .enlaces {
-    width: 50%;
-    display: block;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+  width: 50%;
+  display: block;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
-.enlaces a{
-    text-decoration: none;
-    font-size: x-small;
-    font-weight: bold;
-    color: black;
+.enlaces a {
+  text-decoration: none;
+  font-size: x-small;
+  font-weight: bold;
+  color: black;
 }
 .buscador {
-    justify-content: flex-end; 
-    padding-right: 40 px; 
-    margin: -15px 0 0 140px 
+  justify-content: flex-end;
+  padding-right: 40 px;
+  margin: -15px 0 0 140px;
 }
 
 .buscador input {
-   width: 200px;
-   border: 1px solid #ddd;
-   background-color: #f7f7f7ee;
-   box-shadow: inset 0px 0px 4px 0px rgb(182 181 179);
-   border-radius: 3px;
-   height: 45px;
-   padding: 10px;
-   font-size: 11px;
+  width: 200px;
+  border: 1px solid #ddd;
+  background-color: #f7f7f7ee;
+  box-shadow: inset 0px 0px 4px 0px rgb(182 181 179);
+  border-radius: 3px;
+  height: 45px;
+  padding: 10px;
+  font-size: 11px;
 }
 
 .buscador img {
-    width: 20px;
-    height: 20px;
-    display: flex;
+  width: 20px;
+  height: 20px;
+  display: flex;
 }
 
 .Logo img {
-    display: block;
-    width: 25px;
-    height: 25px;
-    text-align: left;
-    margin-left: 20px;
+  display: block;
+  width: 25px;
+  height: 25px;
+  text-align: left;
+  margin-left: 20px;
 }
 .Logo p {
-    text-align: right;
-    margin-left: 10px;
-    font-size: x-small;
-    font-weight: bold; 
+  text-align: right;
+  margin-left: 10px;
+  font-size: x-small;
+  font-weight: bold;
 }
 .Encabezado {
-    width: 100%;
-    text-align: center;
-    padding: 37px;
-    background-color: rgb(241, 240, 244);
+  width: 100%;
+  text-align: center;
+  padding: 37px;
+  background-color: rgb(241, 240, 244);
 }
 .Encabezado a {
-    font-size: medium;
-    text-decoration: none;
-    color: rgb(36, 199, 211);
+  font-size: medium;
+  text-decoration: none;
+  color: rgb(36, 199, 211);
 }
 .Encabezado h1 {
-    color: rgb(26, 14, 131);
+  color: rgb(26, 14, 131);
 }
 .Encabezado p {
-    font-size: medium;
-    color: rgb(112, 115, 148);
+  font-size: medium;
+  color: rgb(112, 115, 148);
 }
 .botones {
-    display: flex;
-    justify-content: center;
-    margin-top: 42px;
-    padding-bottom: 130px;
-    background-color: rgb(241, 240, 244);
+  display: flex;
+  justify-content: center;
+  margin-top: 42px;
+  padding-bottom: 130px;
+  background-color: rgb(241, 240, 244);
 }
 .botones .boton1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(190, 51, 105);
-    width: 100px;
-    height: 42px;
-    color: #f7f7f7;
-    border-radius: 4px;
-    margin-right: 20px;
-    transition: 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(190, 51, 105);
+  width: 100px;
+  height: 42px;
+  color: #f7f7f7;
+  border-radius: 4px;
+  margin-right: 20px;
+  transition: 0.3s;
 }
 .botones .boton2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 145px;
-    height: 40px;
-    color: rgb(59, 56, 56);
-    border-radius: 4px;
-    border: solid 2px rgb(59 55 55 / 39%);
-    transition: 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 145px;
+  height: 40px;
+  color: rgb(59, 56, 56);
+  border-radius: 4px;
+  border: solid 2px rgb(59 55 55 / 39%);
+  transition: 0.3s;
 }
 .boton1:hover {
-    background-color: rgb(153, 62, 100);
+  background-color: rgb(153, 62, 100);
 }
 .boton2:hover {
-    border-color: crimson;
-    color: crimson;
+  border-color: crimson;
+  color: crimson;
 }
 .imagenes {
-    display: flex; 
-    margin-left: 10px; 
-    
+  display: flex;
+  margin-left: 10px;
 }
 .imagen {
-    justify-content: space-around;
-    align-items: center;
-    margin-top: -76px;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: -76px;
 }
 .imagen img {
-    width: 88%;
-    border-radius: 15px;
+  width: 88%;
+  border-radius: 15px;
 }
 .h-20 {
-    margin-top: -50px;
+  margin-top: -50px;
 }
 .Logof {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 100px;
-    margin-left: 5px;
-    font-size: x-small;
-    font-weight: bold; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  margin-left: 5px;
+  font-size: x-small;
+  font-weight: bold;
 }
-.Logof img{
-    width: 25px;
-    height: 25px;
-    margin-right: 10px;
+.Logof img {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
 }
 
 footer {
-    text-align: center;
-    padding-top: 20px 0 60px;
+  text-align: center;
+  padding-top: 20px 0 60px;
 }
 .enlacesf {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    padding-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
 }
 
-.enlacesf a{
-    text-decoration: none;
-    font-size: x-small;
-    font-weight: bold;
-    color: black;
-    padding: 10px 10px 10px 10px;
-    font-style: bold;
+.enlacesf a {
+  text-decoration: none;
+  font-size: x-small;
+  font-weight: bold;
+  color: black;
+  padding: 10px 10px 10px 10px;
+  font-style: bold;
 }
 
 .iconos {
-    display: inline-block;
-    justify-content: center;
-    width: 100%;  
+  display: inline-block;
+  justify-content: center;
+  width: 100%;
 }
 .iconos img {
-    width: 30px;
-    padding: 20px 5px 60px;
+  width: 30px;
+  padding: 20px 5px 60px;
 }
 img:hover {
-    opacity: 0.5;
-    transition: 00.3s;
+  opacity: 0.5;
+  transition: 00.3s;
 }
 hr {
-    width: 75%;
-    margin-bottom: 30px;
-    opacity: 0.5;
+  width: 75%;
+  margin-bottom: 30px;
+  opacity: 0.5;
 }
 
 footer p {
-    font-size: 10px;
-    color: #a9a9a9b8;
+  font-size: 10px;
+  color: #a9a9a9b8;
 }
 
 .trending {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin: 100px 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 100px 0px;
 }
 .presentacion {
-    text-align: center;
-    margin: 10px 10px 10px 10px;
-    border-radius: 5px;
-    box-sizing: content-box;
-    box-shadow: 0px 0px 6px 0px #4852993b;
+  text-align: center;
+  margin: 10px 10px 10px 10px;
+  border-radius: 5px;
+  box-sizing: content-box;
+  box-shadow: 0px 0px 6px 0px #4852993b;
 }
 
 .presentacion p {
-    font-size: small;
-    color: darkgray;
+  font-size: small;
+  color: darkgray;
 }
 .presentacion .iconos {
-    opacity: 0.3; 
+  opacity: 0.3;
 }
 
 .act {
-    margin: 20px 39px 34px 37px;
-    width: 323px;
-    height: 334px;
-    overflow: hidden;
-    border-radius: 5px;
-    
+  margin: 20px 39px 34px 37px;
+  width: 230px;
+  height: 250px;
+  overflow: hidden;
+  border-radius: 5px;
 }
 .act img {
-    width: 329px;
-    display: block;
+  width: 252px;
+  display: block;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px -10px 20px 20px;
+}
+.yo {
+  width: 50%;
+  margin: 10px 10px 10px 10px;
+  border-radius: 5px;
+  padding: 70px 20px 20px 20px;
 }
 
-@media (max-width:480px) {
-        h1 {
-        font-size: 30px;
-        }   
-        .Encabezado p {
-            font-size: small;  
-        }  
-        .boton1 {
-            width: 50px;
-            box-sizing: content-box;
-        }
-        .boton2 {
-            box-sizing: content-box;
-        }   
-        .imagen {
-            margin-top: -20px;
-        } 
-        .botones {padding-bottom: 30px;
-        }
-        .Logof {
-            margin-top: 30px;
-        }
-        .enlaces, .buscador {
-            display: none;
-        }  
-        .imagen img {
-            border-radius: 5px;
-        }
+.yo h1 {
+  font-size: 40px;
+  color: rgb(26, 26, 107);
 }
-@media (max-width:800px) {
-    .imagen img {
-        border-radius: 10px;
-    }
+.mio {
+  width: 60%;
+  box-sizing: content-box;
+  padding: 20px 20px 0 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.mifoto {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.mio h4 {
+  color: rgb(16, 16, 122);
+}
+.mio p {
+  margin: 0 auto;
+  font-size: small;
+  color: darkgray;
+}
+.mio .iconos {
+  opacity: 0.5;
 }
 
-@media (min-width:480px) {
-    h1 {
+.extraño {
+  display: block;
+  width: 36%;
+  height: 335px;
+}
+
+.extraño img {
+  width: 350px;
+  height: 350px;
+}
+.texto {
+  width: 60%;
+  box-sizing: content-box;
+  text-align: justify;
+  margin: 50px 200px;
+}
+.texto h2 {
+  color: #1a1a8b;
+}
+.texto p {
+  color: darkgrey;
+  font-size: 15px;
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 30px;
+  }
+  .Encabezado p {
+    font-size: small;
+  }
+  .boton1 {
+    width: 50px;
+    box-sizing: content-box;
+  }
+  .boton2 {
+    box-sizing: content-box;
+  }
+  .imagen {
+    margin-top: -20px;
+  }
+  .botones {
+    padding-bottom: 30px;
+  }
+  .Logof {
+    margin-top: 30px;
+  }
+  .buscador {
+    display: none;
+  }
+  .imagen img {
+    border-radius: 5px;
+  }
+}
+@media (max-width: 800px) {
+  .imagen img {
+    border-radius: 10px;
+  }
+}
+
+@media (min-width: 480px) {
+  h1 {
     font-size: 50px;
-    }  
-    .Encabezado p {
-        font-size: medium;  
-    }  
-    .boton1 {
-        width: 100px;
-    }
-}  
-
-
+  }
+  .Encabezado p {
+    font-size: medium;
+  }
+  .boton1 {
+    width: 100px;
+  }
+}
